@@ -193,8 +193,10 @@
               c = document.createElement("option");
               c.text = --AnoActual;
               c.value = AnoActual;
-              x.options.add(c);
               console.log(c);
+              console.log(x);
+              x.options.add(c);
+              //console.log(c);
           }
       }
 
