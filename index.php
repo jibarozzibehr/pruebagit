@@ -176,8 +176,8 @@
             c.value = 1+i;
             console.log("Bien");
             x.options.add(c);
-
             console.log(c);
+
         }
 
         var MesActual = Number(moment().format("MM"));
