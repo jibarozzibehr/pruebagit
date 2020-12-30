@@ -168,12 +168,15 @@
         var MesesArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 
         $("#Meses").empty();
+        //Hola
         x = document.getElementById("Meses");
         for (var i = 0; i < 12; i++) {
             c = document.createElement("option");
             c.text = MesesArray[i];
             c.value = 1+i;
+            console.log("Bien");
             x.options.add(c);
+
             console.log(c);
         }
 
