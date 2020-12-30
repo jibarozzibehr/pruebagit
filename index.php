@@ -1341,7 +1341,7 @@
       }
 
 */
-
+//Comentario random
 
      function listarObrasSocialesEditPlanilla(ObraSocial_ID,j,ObraSocial_Nombre,Periodo_Mes,Periodo_Ano){
 
@@ -1402,11 +1402,6 @@
 
       function listarMesesEditPlanilla(Periodo_Mes,j){
 
-
-
-
-
-
         var MesesArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
         $("#MesesEditPlanilla_"+j).empty();
         //x = document.getElementById("MesesEditPlanilla_"+j);
@@ -1414,32 +1409,44 @@
             c = document.createElement("option");
             c.text = MesesArray[i];
             c.value = 1+i;
-            //Comentario random
             x.options.add(c);
             //console.log(c);
         }
-
+        console.log("PRobandoooooo")
         //var MesActual = Number(moment().format("MM"));
         $("#MesesEditPlanilla_"+j).val(Periodo_Mes);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //$("#Meses").val(MesActual);//
-        alert("Holaaaaa");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       }
 
