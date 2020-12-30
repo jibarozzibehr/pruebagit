@@ -165,7 +165,7 @@
 
       function listarMeses(){
 
-        var MesesArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+        var MesesArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Hola"]
         $("#Meses").empty();
         x = document.getElementById("Meses");
         for (var i = 0; i < 12; i++) {
