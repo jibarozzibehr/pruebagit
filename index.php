@@ -174,7 +174,7 @@
             c.text = MesesArray[i];
             c.value = 1+i;
             x.options.add(c);
-            console.log(c);
+            //console.log(c);
         }
 
         var MesActual = Number(moment().format("MM"));
